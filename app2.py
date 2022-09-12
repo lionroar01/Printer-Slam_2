@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask_sock import Sock
+
 import websockets
 import csv
 from os import path
@@ -9,7 +9,6 @@ from itertools import combinations
 import pandas as pd 
 
 app = Flask(__name__)
-sock = Sock(app)
 
 with open('SLAM_printers.csv', mode='r') as infile:
     reader = csv.reader(infile)
