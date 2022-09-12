@@ -1,0 +1,380 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD><TITLE>Amazon-Zebra - READY</TITLE><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"></HEAD>
+<style>
+
+
+
+
+body {
+ font-family: Titillium Web, sans-serif;
+ background-image: url("https://img.freepik.com/premium-photo/bokeh-abstract-blurred-silver-white-beautiful-background-soft-color-light-glitter-sparkles_51768-59.jpg?w=2000");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex
+  }
+  
+  .subnav {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(11, 7, 7);
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(18, 1, 1);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .left h2 {
+  padding-left: 8px;
+
+}
+
+  .subnav-content a {
+    float: right;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  </style>
+  </head>
+  <body>
+  
+
+<div class="navbar">
+  <div class="left" style="background-color:#bbb;"></div>
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">Company</a>
+      <a href="#team">Team</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Bring</a>
+      <a href="#deliver">Deliver</a>
+      <a href="#package">Package</a>
+      <a href="#express">Express</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">AFT FC<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://aft-pack-config-dub.dub.proxy.amazon.com/config.html?config=pack&fc=BRE4">BRE4</a>
+      <a href="https://aft-pack-config-dub.dub.proxy.amazon.com/config.html?config=pack&fc=BRE4">PAD1</a>
+      <a href="https://aft-pack-config-dub.dub.proxy.amazon.com/config.html?config=pack&fc=BRE4">HAJ1</a>
+      <a href="https://aft-pack-config-dub.dub.proxy.amazon.com/config.html?config=pack&fc=BRE4">BRE3</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Contacts <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.zebra.com">Home</a>
+      <a href="https://www.zebra.com/support.html">Support</a>
+    </div>
+  </div>
+
+
+<img src="https://jobs.gcreddy.com/wp-content/uploads/2021/11/t_zebra-logo_12.png" <?php imageResize(10,30, 30); ?>
+
+
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+<CENTER><HR>
+<h1 style="background-color:white;"> SLAM Zebra Printers</h1>
+<p style="color:DodgerBlue;"> Configuration page</p>
+<p style="color:red;"> Call To Action: ONGOING DEVELPOMENT</p>
+
+</body>
+
+<DIV ALIGN="center">
+
+
+</CENTER>
+</FORM></DIV>
+</CENTER>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+
+
+
+
+
+  Printer IP <select name="colour" method="GET" action="/">
+    {% for colour in colours %}
+    
+<option value="{{colour}}"  SELECTED>{{colour}} </option>
+        
+    
+    {% endfor %}
+</select>
+
+
+<form action="slam_in_pcns" method = 'POST'>
+  {% for slamall in mydict %}
+      <input type="text" name = "slamall" value = "" required>
+      <option value="{{slamall}}" SELECTED>{{slamall}}</option>"
+  {% endfor %}
+</form>
+
+
+
+
+
+<form action="Station_ID" method = "post">
+  <label for="text" style="color:white;">Station IDs</label>
+  <input type="text" name = "url" value = "" required>
+  <input type="submit" value = "Check IP">
+  <br>
+  <label for="code" style="color:white;">IP Address</label>
+  <input type="text" name = "code" value = "">
+  
+  <input type="submit" value = "Configure Printer">
+
+
+</form>
+
+
+
+
+
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title" style="color:white;"></h3>
+              </div>
+              <div class="panel-body">
+
+
+                  <!-- FORM -->
+                  <form data-toggle="validator" role="form" method="post"> <!-- validation form https://1000hz.github.io/bootstrap-validator/ -->
+
+                      <div class="form-group col-md-12">
+                          <label class="control-label" for="known_hosts_select" style="color:white;">
+                              Station ID
+                          </label>
+                          <select class="form-control" id="known_hosts_select">
+                            <option>-- List of Station ID --</option>
+                            <option ip="172.17.9.254" login="root" pass="mypass">Slam_1_01</option>
+                            <option ip="172.17.11.253" login="root" pass="mypass">Slam-1_02</option>
+                          </select>
+                      </div>
+
+                      <div class="form-group col-md-12">
+                          <label class="control-label requiredField" for="vmware_ip_addr" style="color:white;">
+                              Enter Slam Station
+                          </label>
+                          <input class="form-control" type="text"
+                                 pattern="^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+                                 id="vmware_ip_addr" name="vmware_ip_addr" placeholder="Slam_x_xx"
+                                 data-error="How did you pass NRS I? Its not a valid IP address" />
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      </div>
+                      <div class="form-group col-md-12">
+                          <div> <!-- RD: type="submit" changed to button, since JQuery is in use -->
+                              <button class="btn btn-primary" id="submit_form" name="submit" type="button">
+                                  Submit
+                              </button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <!-- OUTPUT SECTION -->
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Output</h3>
+              </div>
+              <div class="panel-body" id="output_div">
+              </div>
+          </div>
+          <!-- END OF OUTPUT SECTION -->
+      </div>
+  </div>
+</div>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 class="panel-title" style="color:rgb(113, 8, 8);">PCNS SLAM ZT PRINTERS CONFIGURATION PAGE</h2>
+<h3 style="color:rgb(64, 5, 5);">SLAM_01_BRE4</h3> 
+<p><a href="http://10.161.18.36/settings">ws01_01-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_02-SLAM</a></p>
+<p><a href="http://10.161.18.33/settings">ws01_03-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_04-SLAM</a></p>
+<p><a href="http://10.161.18.35/settings">ws01_05-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_06-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_07-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_08-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_09-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_10-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_11-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_12-SLAM</a></p>
+<p><a href="http://10.161.18.43/settings">ws01_13-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_14-SLAM</a></p>
+<p><a href="http://10.161.18.41/settings">ws01_15-SLAM</a></p>
+<p><a href="http://10.161.18.46/settings">ws01_16-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_17-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_18-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_19-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_20-SLAM</a></p>
+<BR>
+<h3 style="color:rgb(64, 5, 5);">SLAM_02_BRE4</h3> 
+<p><a href="http://10.161.18.36/settings">ws01_01-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_02-SLAM</a></p>
+<p><a href="http://10.161.18.33/settings">ws01_03-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_04-SLAM</a></p>
+<p><a href="http://10.161.18.35/settings">ws01_05-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_06-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_07-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_08-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_09-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_10-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_11-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_12-SLAM</a></p>
+<p><a href="http://10.161.18.43/settings">ws01_13-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_14-SLAM</a></p>
+<p><a href="http://10.161.18.41/settings">ws01_15-SLAM</a></p>
+<p><a href="http://10.161.18.46/settings">ws01_16-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_17-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_18-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_19-SLAM</a></p>
+<p><a href="http://10.161.18.36/settings">ws01_20-SLAM</a></p>
+</BR>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <hr>
+  Choose csv file: <input type="file" id="inputFile" accept=".csv"><br/><br/>
+  <form action="mailto:emailAddress.com" method="post" enctype="text/plain">
+    <div>
+      <table id="requestTable">
+        <tbody>
+          <tr>
+            <td class="tdLabel">
+              <label>Name:</label>
+            </td>
+            <td class="tdInput">
+              <input type="text" id="user-name" name="display-name" pattern="[A-Za-z\s]+" maxlength="50" minlength="2" required>
+            </td>
+          </tr>
+          <tr>
+            <td class="tdLabel">
+              <label>Stream List:</label>
+            </td>
+            <td>
+              <select id="selectStyle" name="streamlistselect"></select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <input class="buttonRequest" type="submit" value="Submit Request">
+  
+  </form>
+
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+
+</body>
+</html>
+
+  
+  
+
+
+

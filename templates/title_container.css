@@ -1,0 +1,50 @@
+.title_container{
+    top: 10px;
+    left:10px;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+    background-color: #437199;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;  
+  }
+  
+  .title{
+      margin: 0px 20px;
+      height: 40px;
+   /*    border-bottom:15px solid navy;    */
+     background:
+      linear-gradient(#437199,#437199) 0 calc(-1px)/100% 22px no-repeat,
+      navy;
+  }
+  
+  
+  
+  .title_sub_text{
+      padding-top: 10px;
+      font-weight: bold;
+      overflow: hidden;
+      position: relative;
+  }
+  h1{
+      top:10px;
+      /* position: absolute; */
+  }
+  
+  button, button:hover, button:active, button:focus{
+      width: 210px;
+      height: 46px;
+      color:#fff;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: #967e2c;
+      border-bottom: 4px solid #f1ba43;
+      padding-top: 4px;
+      margin: 20px 0px;
+      border-style: solid;
+  }
+  button:active {
+  
+      border-style: solid;
+  }

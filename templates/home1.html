@@ -1,0 +1,51 @@
+{% extends "base1.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<h1> this is how Zebra printers work </h1>
+
+<html>
+    <head>
+
+
+
+    </head>
+
+
+    <body>
+        
+
+        <form class="grid" action = "/stationIP"  method = "POST">
+            <center>
+                {% if name %}
+                <h3 style = "color: blue;" >good {{name}} life </h3>
+                {% endif %}
+            </center>
+
+            <form action="/#" method = "POST">
+            <label for="Name" >Station Name: (Example: 'SlamX0X_X') </label>
+            <input type="text"  name = "Station_ID" id = "Station_ID" >
+            <input type="submit"  class = "file_summit">
+
+            {% if Sation: %}
+            <h1>Hit enter to continue to configuration page</h1>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button> 
+            {% else: %}
+            <h1>do not exist</h1>
+            {% endif %}
+
+            </form>
+
+        </form>
+    </body>
+
+    <form action="slam_in_pcns" method = 'POST'>
+        {% for slamall in mydict %}
+            <input type="text" name = "slamall" value = "" required>
+            <option value="{{slamall}}" SELECTED>{{slamall}}</option>"
+        {% endfor %}
+      </form>
+</html>
+{% endblock %}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD><TITLE>99J203400889 - View and Modify Printer Settings</TITLE><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"></HEAD>
+<BODY><CENTER>
+<H1>Zebra Technologies<BR>
+ZTC ZT411-300dpi ZPL</H1>
+<H2>99J203400889</H2>
+Internal Wired PrintServer<H3><A HREF="index.html">Home</A></H3>
+<HR></CENTER>
+<DIV ALIGN="center">
+<H2>View and Modify Printer Settings</H2>
+<H3>
+<A HREF="setgen">General Setup</A><BR>
+<A HREF="setcom">Serial Communications Setup</A><BR>
+<A HREF="netsettings">Network Configuration</A><BR>
+<A HREF="setlst">Print Listings on Label</A><BR>
+<A HREF="setmed">Media Setup</A><BR>
+<A HREF="setcal">Calibration</A><BR>
+<A HREF="setzpl">ZPL Control</A><BR>
+<A HREF="setadv">Advanced Setup</A><BR>
+</H3>
+<FORM METHOD="POST" ACTION="settings">
+<P>
+<INPUT TYPE="submit" NAME="0" VALUE="Save Current Configuration">
+</P>
+<P>
+<P>
+<INPUT TYPE="submit" NAME="1" VALUE="Restore Saved Configuration">
+</P>
+<P>
+<INPUT TYPE="submit" NAME="4" VALUE="Restore Default Configuration">
+</P>
+<P>
+<INPUT TYPE="submit" NAME="2" VALUE="Restore Default Network Configuration">
+</P>
+<P>
+<INPUT TYPE="submit" NAME="3" VALUE="Reset Network">
+</P>
+</P>
+</FORM>
+</DIV>
+<CENTER><HR>
+Home: <A HREF="https://www.zebra.com">https://www.zebra.com</A><BR>
+Support: <A HREF="https://www.zebra.com/support.html">https://www.zebra.com/support.html</A><BR>
+</CENTER>
+</BODY>
+</HTML>
